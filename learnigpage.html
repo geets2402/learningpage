@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 2em;
+            z-index: 1000;
+        }
+        
+        .container {
+            display: flex;
+            margin-top: 20px;
+            padding: 20px;
+            background-image: ;
+        }
+        
+        .left {
+            width: 25%;
+            padding-right: 20px;
+            border-right: 2px solid #ccc;
+        }
+        
+        .left ul {
+            list-style-type: none;
+        }
+        
+        .left ul li {
+            margin: 10px 0;
+        }
+        
+        .left ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+        }
+        
+        .left ul li a:hover {
+            color: #4CAF50;
+        }
+        
+        .right {
+            width: 75%;
+            padding-left: 20px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #4CAF50;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>CSS Learning Page</h1>
+        </header>
+    
+        <div class="container">
+            <div class="left">
+                <ul>
+                    <li><a href="#topic1">Introduction to CSS</a></li>
+                    <li><a href="#topic2">Selectors</a></li>
+                    <li><a href="#topic3">Box Model</a></li>
+                    <li><a href="#topic4">Flexbox</a></li>
+                    <li><a href="#topic5">Grid</a></li>
+                    <li><a href="#topic6">Animations</a></li>
+                </ul>
+            </div>
+    
+            <div class="right">
+                <section id="topic1">
+                    <h2>Introduction to CSS</h2>
+                    <p>CSS stands for Cascading Style Sheets, and it's used to style HTML elements. You can change the layout, color, fonts, and much more!</p>
+                </section>
+    
+                <section id="topic2">
+                    <h2>Selectors</h2>
+                    <p>Selectors are used to target HTML elements that you want to style. Common types include class selectors, ID selectors, and element selectors.</p>
+                </section>
+    
+                <section id="topic3">
+                    <h2>Box Model</h2>
+                    <p>The box model consists of margins, borders, padding, and the actual content. Understanding the box model is essential for layout design.</p>
+                </section>
+    
+                <section id="topic4">
+                    <h2>Flexbox</h2>
+                    <p>Flexbox is a layout model that allows you to design responsive layouts efficiently. It enables the arrangement of elements in rows or columns with flexible sizing.</p>
+                </section>
+    
+                <section id="topic5">
+                    <h2>Grid</h2>
+                    <p>CSS Grid is a powerful layout system that allows you to create two-dimensional layouts. It gives you control over both rows and columns.</p>
+                </section>
+    
+                <section id="topic6">
+                    <h2>Animations</h2>
+                    <p>CSS animations enable you to animate changes in properties over time. With keyframes, you can control how elements transition or move.</p>
+                </section>
+            </div>
+        </div>
+</body>
+</html>
